@@ -2,7 +2,8 @@ version: "3"
 services:
   app:
     build:
-      context: "docker/app/"
+      context: "./docker/app/"
+    image: docker.io/library/laravel_docker_hc-app
     ports:
       - 80:80
       - 8000:80
