@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+:root {
+    box-shadow: 0.8px 22px rgba(0, 0, 0, 0.2);
+}
+
+* {
+    transition: all 0.4s ease;
+}
+
+body {
+    font-family: 'Zen Antique', serif;
+    color: rgb(17, 17, 17);
+}
+
+html {
+    font-size: 62.5%; /*  font-size: 10px */
+}
+
+h2, h3 {
+    position: relative;
+    z-index: 1;
+    font-size:  3rem;
+    font-weight: 540;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.sale h2 {
+    font-size: 4rem;
+}
+
+.sale h3 {
+    font-size: 3rem;
+}
+
+/* .sale img {
+    width: 200px;
+    height: 100px;
+} */
+
+.card-effect {
+    box-shadow: var(--box-shadow);
+}
+
+.game-card {
+    background-color: rgb(255, 255, 255);
+}
+
+.game-card h5 {
+    font-size: 2rem;
+}
+
+.game-card p {
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+    letter-spacing: 0.1rem;
+}
+
+.image-fixed-size {
+    width: 279px;  /* 幅を200ピクセルに設定 */
+    height: 150px; /* 高さを150ピクセルに設定 */
+    object-fit: contain;  /* 画像の比率を保ちつつ、指定した枠に合わせて表示 */
+}
